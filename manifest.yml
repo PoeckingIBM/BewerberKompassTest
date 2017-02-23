@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: BewerberKompassTest
+  host: BewerberKompassTest
+  disk_quota: 1024M
+  services:
+  - BewerberKompassTest-cloudantNoSQLDB
